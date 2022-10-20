@@ -161,6 +161,8 @@ To install Rendertron and run it locally, first install Rendertron:
 npm install -g rendertron
 ```
 
+💡 In order for the instance to work locally you'll need to comment out the `datastore` attribute in `config.json`.
+
 With Chrome installed on your machine run the Rendertron CLI:
 
 ```bash
